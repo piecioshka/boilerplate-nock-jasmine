@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "name": "test-nock",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "echo",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "mocha": "^5.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.8.0",
+        "eslint-config-piecioshka": "^2.0.1",
+        "nock": "^10.0.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/test-nock.git"
+    }
+}
