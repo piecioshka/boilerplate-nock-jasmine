@@ -1,15 +1,24 @@
 # boilerplate-nock-jasmine
 
-:ledger: Testing Nock with Mocha
+🍴 Starter with Nock with Jasmine
 
 ## Features
 
-* :white_check_mark: Create component which make HTTP request
-* :white_check_mark: Use `axios` as HTTP request helper
-* :white_check_mark: Write unit test which testing make HTTP request after `sync`
-* :white_check_mark: Use `mocha` as test runner
-* :white_check_mark: Use `assert` (Node.js module) as assertion function
-* :white_check_mark: Mock response with `nock`
+* :white_check_mark: Nock `v13.2.1`
+* :white_check_mark: Jasmine `v3.10.0`
+
+## Unit tests
+
+```bash
+npm test
+```
+
+## Related
+
+* [boilerplate-mocha-typescript](https://github.com/piecioshka/boilerplate-mocha-typescript)
+* [boilerplate-jasmine-typescript](https://github.com/piecioshka/boilerplate-jasmine-typescript)
+* [boilerplate-jest-typescript](https://github.com/piecioshka/boilerplate-jest-typescript)
+* [boilerplate-karma-babel](https://github.com/piecioshka/boilerplate-karma-babel)
 
 ## License
 
