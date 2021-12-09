@@ -1,9 +1,8 @@
-const { UserPanelComponent } = require("./components/example");
+const { ExampleService } = require("./services/example");
 
 async function main() {
-  const ui = new UserPanelComponent();
-  await ui.sync();
-  console.log(ui.data);
+  const data = await ExampleService.fetchProducts();
+  console.log(data);
 }
 
-main().catch((err) => console.error(err.message));
+main().catch(console.error);
