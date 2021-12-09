@@ -1,6 +1,4 @@
-# test-nock
-
-[![dependencies](https://david-dm.org/piecioshka/test-nock.svg)](https://github.com/piecioshka/test-nock)
+# boilerplate-nock-jasmine
 
 :ledger: Testing Nock with Mocha
 
@@ -15,4 +13,4 @@
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2018
+[The MIT License](http://piecioshka.mit-license.org) @ 2018-2021
