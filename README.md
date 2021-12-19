@@ -1,6 +1,6 @@
 # boilerplate-nock-jasmine
 
-🍴 Starter with Nock with Jasmine
+🍴 Starter with Nock & Jasmine
 
 ## Features
 
