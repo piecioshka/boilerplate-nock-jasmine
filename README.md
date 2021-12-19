@@ -13,6 +13,12 @@
 npm test
 ```
 
+## Code Coverage
+
+```bash
+npm run coverage
+```
+
 ## Related
 
 * [boilerplate-mocha-typescript](https://github.com/piecioshka/boilerplate-mocha-typescript)
