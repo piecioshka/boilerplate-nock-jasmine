@@ -3,7 +3,7 @@ const { ExampleService } = require("./example");
 
 describe("ExampleService", () => {
   it("should fetch products via HTTP", async () => {
-    nock("https://fakes.herokuapp.com/")
+    nock("https://fakes.piecioshka.io/")
       .get("/products")
       .reply(200, { foo: "bar" });
     const data = await ExampleService.fetchProducts();
